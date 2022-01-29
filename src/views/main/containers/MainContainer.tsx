@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import CalenderDateRange from "../components/CalenderDateRange";
+import CalenderWithPortal from "../components/CalenderWithPortal";
 
 function MainContainer () {
     return(
         <Container>
-            <CalenderDateRange/>
+            <CalenderWithPortal/>
+            {/*<CalenderDateRange/>*/}
         </Container>
     )
 };

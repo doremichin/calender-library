@@ -10,7 +10,7 @@ function Header () {
             </Logo>
             <Nav>
                 <NavItem to={'/'}>Main</NavItem>
-                <NavItem to={'/images'}>Images</NavItem>
+                <NavItem to={'/todos'}>todos</NavItem>
             </Nav>
         </Container>
     )
@@ -28,6 +28,8 @@ const Logo = styled.div`
 `;
 const Nav = styled.div`
   height: 60px;
+  display: flex;
+  align-items: center;
 `;
 const NavItem = styled(Link)`
   display: inline-block;

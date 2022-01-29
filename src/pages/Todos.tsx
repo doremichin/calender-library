@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import TodosContainer from "../views/todos/containers/TodosContainer";
 
-function Images () {
+function Todos () {
     return(
         <Container>
-            Images
+            <TodosContainer/>
         </Container>
     )
 };
@@ -13,4 +14,4 @@ const Container = styled.div`
 
 `;
 
-export default Images;
+export default Todos;

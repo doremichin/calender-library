@@ -1,9 +1,7 @@
 ## Calender
 
 - react-datepicker
-
-
-
+- react query
 - react router dom v6
 
 기존의 Switch, exact 등 사라짐
