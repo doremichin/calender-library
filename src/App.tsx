@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Routers from "./Routers";
 import Header from './views/_shared/header/Header';
+import 'react-day-picker/lib/style.css';
 import "react-datepicker/dist/react-datepicker.css";
 import {GlobalStyled} from "./style/GlobalStyled";
 import { ReactQueryDevtools } from 'react-query/devtools' // devtools
